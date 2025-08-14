@@ -1,0 +1,13 @@
+<svg width="250" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="prod8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e67e22;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#d35400;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#prod8)"/>
+  <rect x="80" y="80" width="90" height="100" fill="#e67e22" opacity="0.8"/>
+  <rect x="90" y="90" width="70" height="80" fill="#d35400"/>
+  <rect x="100" y="100" width="50" height="60" fill="#e67e22"/>
+  <text x="125" y="180" font-family="Arial" font-size="14" fill="#2c3e50" text-anchor="middle">Rahat Koltuk</text>
+</svg> 

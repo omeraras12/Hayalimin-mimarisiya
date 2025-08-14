@@ -1,0 +1,14 @@
+<svg width="250" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="prod6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF8C00;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#prod6)"/>
+  <circle cx="125" cy="100" r="35" fill="#FF8C00" opacity="0.8"/>
+  <circle cx="125" cy="100" r="25" fill="#FFA500"/>
+  <circle cx="125" cy="100" r="15" fill="#FF8C00"/>
+  <circle cx="125" cy="100" r="5" fill="#FFA500"/>
+  <text x="125" y="180" font-family="Arial" font-size="14" fill="#2c3e50" text-anchor="middle">Kehribar Tesbih</text>
+</svg> 

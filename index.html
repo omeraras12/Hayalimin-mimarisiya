@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hayalimin Mimarisi | Kaliteli Mobilya ve Aksesuarlar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-main">
+                                    <div class="logo">
+                        <a href="index.html"><span>Hayalimin</span> Mimarisi</a>
+                    </div>
+                <div class="open-nav-menu">
+                    <span></span>
+                </div>
+                <div class="menu-overlay"></div>
+                <nav class="nav-menu">
+                    <div class="close-nav-menu">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <ul class="menu">
+                        <li class="menu-item"><a href="index.html">Anasayfa</a></li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="#" data-toggle="sub-menu">Ürünler <i class="fas fa-chevron-down"></i></a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="mobilya.html">Mobilya</a></li>
+                                <li class="menu-item"><a href="aksesuar.html">Aksesuarlar</a></li>
+                                <li class="menu-item"><a href="tesbih.html">Tesbihler</a></li>
+                                <li class="menu-item"><a href="dekorasyon.html">Dekorasyon</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item"><a href="hakkimizda.html">Hakkımızda</a></li>
+                        <li class="menu-item"><a href="iletisim.html">İletişim</a></li>
+                    </ul>
+                </nav>
+                <div class="header-right">
+                    <div class="search-box">
+                        <button class="search-btn"><i class="fas fa-search"></i></button>
+                        <input type="text" class="search-input" placeholder="Ürün ara...">
+                    </div>
+                    <div class="user-actions">
+                        <a href="#" class="user-btn"><i class="fas fa-user"></i></a>
+                        <a href="#" class="cart-btn"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="search-overlay">
+        <div class="search-container">
+            <input type="text" placeholder="Ne aramıştınız?">
+            <button class="close-search"><i class="fas fa-times"></i></button>
+            <div class="search-results"></div>
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="hero-slider">
+            <div class="slider-item">
+                <img src="images/hero1.jpg.svg" alt="Mobilya Koleksiyonu">
+                <div class="slider-content">
+                    <h2>Yeni Mobilya Koleksiyonu</h2>
+                    <p>Şık ve konforlu tasarımlarla evinize değer katın</p>
+                    <a href="#" class="btn">Keşfet</a>
+                </div>
+            </div>
+            <div class="slider-item">
+                <img src="images/hero2.jpg.svg" alt="Tesbih Koleksiyonu">
+                <div class="slider-content">
+                    <h2>El Yapımı Tesbihler</h2>
+                    <p>Özenle seçilmiş malzemelerle hazırlanmış özel koleksiyon</p>
+                    <a href="#" class="btn">Keşfet</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="prev-slide"><i class="fas fa-chevron-left"></i></button>
+            <button class="next-slide"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Ücretsiz Kargo</h3>
+                    <p>500₺ ve üzeri alışverişlerde</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-undo"></i>
+                    </div>
+                    <h3>Kolay İade</h3>
+                    <p>14 gün içinde iade imkanı</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Güvenli Alışveriş</h3>
+                    <p>256-bit SSL sertifikası</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>7/24 Destek</h3>
+                    <p>Uzman destek ekibimiz</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="categories">
+        <div class="container">
+            <div class="section-header">
+                <h2>Kategoriler</h2>
+                <a href="#" class="view-all">Tümünü Gör</a>
+            </div>
+            <div class="categories-grid">
+                <div class="category-item">
+                    <a href="mobilya.html">
+                        <img src="images/category1.jpg.svg" alt="Mobilya">
+                        <div class="category-content">
+                            <h3>Mobilya</h3>
+                            <p>50+ ürün</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="category-item">
+                    <a href="aksesuar.html">
+                        <img src="images/category2.jpg.svg" alt="Aksesuarlar">
+                        <div class="category-content">
+                            <h3>Aksesuarlar</h3>
+                            <p>30+ ürün</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="category-item">
+                    <a href="tesbih.html">
+                        <img src="images/category3.jpg.svg" alt="Tesbihler">
+                        <div class="category-content">
+                            <h3>Tesbihler</h3>
+                            <p>25+ ürün</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="category-item">
+                    <a href="dekorasyon.html">
+                        <img src="images/category4.jpg.svg" alt="Dekorasyon">
+                        <div class="category-content">
+                            <h3>Dekorasyon</h3>
+                            <p>40+ ürün</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Öne Çıkan Ürünler</h2>
+                <div class="product-tabs">
+                    <button class="tab-btn active" data-category="all">Tümü</button>
+                    <button class="tab-btn" data-category="mobilya">Mobilya</button>
+                    <button class="tab-btn" data-category="aksesuar">Aksesuarlar</button>
+                    <button class="tab-btn" data-category="tesbih">Tesbihler</button>
+                </div>
+            </div>
+            <div class="products-grid">
+                <!-- Ürünler JavaScript ile eklenecek -->
+            </div>
+        </div>
+    </section>
+
+    <section class="banner">
+        <div class="container">
+            <div class="banner-content">
+                <h2>Özel İndirimler</h2>
+                <p>Yeni üyelere özel %15 indirim fırsatını kaçırmayın!</p>
+                <a href="#" class="btn">Hemen Alışveriş Yap</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Müşteri Yorumları</h2>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>Mobilyalar gerçekten çok kaliteli ve kargo paketlemesi mükemmeldi. Teşekkürler Aras Trend!</p>
+                        <div class="client-info">
+                            <img src="images/client1.jpg.svg" alt="Müşteri">
+                            <h4>Ahmet Yılmaz</h4>
+                            <span>İstanbul</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>Satın aldığım tesbih el işçiliği harika, kargom da çok hızlı geldi. Kesinlikle tavsiye ederim.</p>
+                        <div class="client-info">
+                            <img src="images/client2.jpg.svg" alt="Müşteri">
+                            <h4>Mehmet Kaya</h4>
+                            <span>Ankara</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>Eşime doğum günü için sehpa aldım, çok beğendi. Ürün fotoğraflardaki gibi hatta daha güzeldi.</p>
+                        <div class="client-info">
+                            <img src="images/client3.jpg.svg" alt="Müşteri">
+                            <h4>Ayşe Demir</h4>
+                            <span>İzmir</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="brands">
+        <div class="container">
+            <div class="brands-slider">
+                <div class="brand-item">
+                    <img src="images/brand1.png.svg" alt="Marka">
+                </div>
+                <div class="brand-item">
+                    <img src="images/brand2.png.svg" alt="Marka">
+                </div>
+                <div class="brand-item">
+                    <img src="images/brand3.png.svg" alt="Marka">
+                </div>
+                <div class="brand-item">
+                    <img src="images/brand4.png.svg" alt="Marka">
+                </div>
+                <div class="brand-item">
+                    <img src="images/brand5.png.svg" alt="Marka">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h3>Bültenimize Abone Olun</h3>
+                    <p>Yeni ürünler ve özel indirimler hakkında bilgi almak için e-posta listemize katılın.</p>
+                </div>
+                <div class="newsletter-form">
+                    <form action="#" method="post">
+                        <input type="email" placeholder="E-posta adresiniz" required>
+                        <button type="submit" class="btn">Abone Ol</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <a href="index.html"><span>Hayalimin</span> Mimarisi</a>
+                    </div>
+                    <p class="footer-about">Hayalimin Mimarisi, kaliteli mobilya ve aksesuarları uygun fiyatlarla müşterilerine sunmayı hedefleyen bir e-ticaret platformudur.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com/hayaliminmimarisi" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Hızlı Linkler</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                        <li><a href="urunler.html">Ürünler</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="iletisim.html">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">Ürünler</h3>
+                    <ul class="footer-links">
+                        <li><a href="mobilya.html">Mobilya</a></li>
+                        <li><a href="aksesuar.html">Aksesuarlar</a></li>
+                        <li><a href="tesbih.html">Tesbihler</a></li>
+                        <li><a href="dekorasyon.html">Dekorasyon</a></li>
+                        <li><a href="indirimli.html">İndirimli Ürünler</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title">İletişim</h3>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> 1234 Sokak, No:56, İstanbul, Türkiye</li>
+                        <li><i class="fas fa-phone"></i> +90 555 123 45 67</li>
+                        <li><i class="fas fa-envelope"></i> iletisim@hayaliminmimarisi.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                                            <p>&copy; 2023 Hayalimin Mimarisi. Tüm hakları saklıdır.</p>
+                    <div class="payment-methods">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-paypal"></i>
+                        <i class="fab fa-cc-amex"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="quick-view-modal">
+        <div class="quick-view-container">
+            <button class="close-quick-view"><i class="fas fa-times"></i></button>
+            <div class="quick-view-content">
+                <!-- Modal içeriği JavaScript ile eklenecek -->
+            </div>
+        </div>
+    </div>
+
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Alışveriş Sepeti</h3>
+            <button class="close-cart"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-body">
+            <!-- Sepet içeriği JavaScript ile eklenecek -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Toplam:</span>
+                <span class="total-price">0₺</span>
+            </div>
+            <a href="#" class="btn checkout-btn">Ödemeye Geç</a>
+        </div>
+    </div>
+
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="script.js"></script>
+</body>
+</html>
