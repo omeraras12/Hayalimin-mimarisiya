@@ -1,0 +1,14 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cat2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#cat2)"/>
+  <circle cx="150" cy="120" r="40" fill="#3498db" opacity="0.8"/>
+  <circle cx="150" cy="120" r="25" fill="#2980b9"/>
+  <rect x="100" y="180" width="100" height="60" fill="#3498db" opacity="0.6"/>
+  <rect x="110" y="190" width="80" height="40" fill="#2980b9"/>
+  <text x="150" y="250" font-family="Arial" font-size="18" fill="#2c3e50" text-anchor="middle">Aksesuarlar</text>
+</svg> 
